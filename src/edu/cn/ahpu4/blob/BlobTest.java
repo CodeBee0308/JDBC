@@ -121,7 +121,5 @@ public class BlobTest {
 			}
 			JDBCUtils.closeResource(conn, ps, rs);
 		}
-		
 	}
-
 }
