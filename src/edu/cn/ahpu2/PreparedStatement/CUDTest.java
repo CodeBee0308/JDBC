@@ -13,7 +13,7 @@ import org.junit.Test;
 
 import edu.cn.ahpu.utils.JDBCUtils;
 
-public class CRUTest {
+public class CUDTest {
 	
 	@Test
 	public void testInsert(){
@@ -88,6 +88,6 @@ public class CRUTest {
 	@Test
 	public void testDelete() {
 		String sql = "delete from customers where id = ?" ;
-		CRUTest2.update(sql, 21);
+		CUDTest2.update(sql, 21);
 	}
 }

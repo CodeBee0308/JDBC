@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 
 import edu.cn.ahpu.utils.JDBCUtils;
 
-public class CRUTest2 {
+public class CUDTest2 {
 	
 	public static void update(String sql,Object...args) {
 		Connection conn = null;

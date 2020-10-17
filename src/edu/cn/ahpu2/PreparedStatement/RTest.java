@@ -18,7 +18,7 @@ import edu.cn.ahpu.utils.JDBCUtils;
 * @date 2020年10月12日下午5:08:36
 *
  */
-public class DTest {
+public class RTest {
 	
 	@Test
 	public void testQuery1(){
@@ -61,7 +61,7 @@ public class DTest {
 	@Test
 	public void testQuery2() {
 		String sql = "select id,name,email,birth from customers where id = ?" ;
-		Customer customer = DTest2.QueryForCustomer(sql, 12) ;
+		Customer customer = RTest2.QueryForCustomer(sql, 12) ;
 		System.out.println(customer);
 	}
 

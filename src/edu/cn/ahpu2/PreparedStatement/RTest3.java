@@ -12,20 +12,12 @@ import org.junit.Test;
 import edu.cn.ahpu.bean.Order;
 import edu.cn.ahpu.utils.JDBCUtils;
 
-public class DTest3 {
+public class RTest3 {
 	
 	
-	@Test
-	public void testQueryForOrder2() {
-		int i = 1 ;
-		i = i++ ;
-		int j = i++ ;
-		int k = i + ++i * i++ ;
-		System.out.println(i + "、" + j + "、" + k);
-	}
 	/**
 	 * 
-	* @Description 针对order特定sql语句的查询操作
+	* @Description 针对order表的特定sql语句的查询操作
 	* @author CodeBee
 	* @date 2020年10月12日下午9:28:15
 	 */

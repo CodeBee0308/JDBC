@@ -17,7 +17,7 @@ import edu.cn.ahpu.utils.JDBCUtils;
 * @date 2020年10月12日下午7:44:57
 *
  */
-public class DTest2 {
+public class RTest2 {
 	
 	public static Customer QueryForCustomer(String sql,Object...args) {
 		Connection conn = null;

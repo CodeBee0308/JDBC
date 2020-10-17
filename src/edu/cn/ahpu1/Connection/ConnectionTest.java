@@ -106,6 +106,13 @@ public class ConnectionTest {
 		
 	}
 	
+	/**
+	 * 
+	 * @Description 获取数据库连接的最终方案
+	 * @author CodeBee
+	 * @date 2020年10月17日下午9:41:42
+	 * @throws Exception
+	 */
 	@Test
 	public void testConnection05() throws Exception {
 		InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream("jdbc.properties") ;
